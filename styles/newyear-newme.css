@@ -1,7 +1,27 @@
 *{margin: 0;
-font-family:sans-serif}
+    font-family:sans-serif}
 
-/*---------------header------------------------*/
+/*--------------------Button styles-----------------*/
+.orange-button{
+    background-color: rgb(216, 80, 6);
+    color: white;
+    padding: 20px 40px;
+    border: 0;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.white-button{
+    background-color: white;
+    color:rgb(216, 80, 6);
+    padding: 20px 40px;
+    border: 0;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
+
+
+/*---------------step1:header------------------------*/
 .bg-image{
     background-image: url(../images/banner/banner1.png);
     background-repeat: no-repeat;
@@ -12,19 +32,72 @@ font-family:sans-serif}
     text-align: right;
     padding: 250px 250px 0 1000px;
 }
-.gray-color{
-    color: gray;
+.header-style p{
+    color:gray;
 }
-/*--------------------Button styles-----------------*/
-.orange-button{
-    background-color: rgb(216, 80, 6);
-    color: white;
-    padding: 20px 40px;
-    border: 0;
-    font-size: 20px;
+.header-style h1,p,button{
+    padding-bottom: 25px;
+}
+.header-style h1{
+    font-size: 70px;
+}
+/*------------------------step 2----------------------*/
+.step2-style{
+    padding: 150px 250px 0 250px;
+    display: flex;
+}
+.step2-style div2{
+    padding:200px 100px 0 100px;
+}
+.step2-style h1{
+    font-size: 40px;
+}
+.checklist{
+    color:gray;
+}
+.checklist p{
+    padding: 0 0 10px 0;
+}
+/*------------------------step 3---------------------*/
+.step3-style{
+    padding: 150px 250px 0 250px;
+}
+.step3-style h1{
+    text-align: center;
+    font-size:40px;
+}
+.my-plans{
+    text-align: center;
+    padding: 50px 0;
+    display: flex;
+}
+.my-plans p{
+    color:gray;
+    font-size: 25px;
+}
+.my-plans h1{
+    font-size: 30px;
+    padding:10px;
+}
+.my-plans div{
+    padding-left: 100px;
+}
+/*-----------------------step 4-----------------------*/
+.step4-style{
+    margin : 50px 350px 100px 350px;
+}
+.step4-style div{
+    background-image:linear-gradient(to right, rgb(216, 80, 6),rgb(0,0,0,.1)), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 10px;
+    height: 350px;
 }
-/*-------------------common styles for all sections------------------*/
-.section-style{
-    padding: 200px 250px 0 250px;
+.step4-style h1{
+    font-size: 40px;
+    padding: 100px 600px 20px 100px;
+    color: white;
+}
+.step4-style p{
+    padding-left: 100px;
 }
