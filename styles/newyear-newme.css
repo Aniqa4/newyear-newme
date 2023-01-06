@@ -1,0 +1,26 @@
+*{margin: 0;
+font-family:sans-serif}
+
+/*---------------header------------------------*/
+.bg-image{
+    background-image: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 950px;
+}
+.header-style{
+    text-align: right;
+    padding: 250px 250px 0 1000px;
+}
+.gray-color{
+    color: gray;
+}
+/*--------------------Button styles-----------------*/
+.orange-button{
+    background-color: rgb(216, 80, 6);
+    color: white;
+    padding: 20px 40px;
+    border: 0;
+    font-size: 20px;
+    border-radius: 10px;
+}
