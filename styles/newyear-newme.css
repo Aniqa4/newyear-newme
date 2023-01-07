@@ -98,3 +98,45 @@
 .step4-style-p{
     padding-left: 100px;
 }
+/*------------------------------step 5:my own section-------------------------*/
+
+.step5-style{
+    padding: 0 350px 100px 350px;
+    text-align: right;
+}
+.bg-image3{
+    background-image:url(../images/banner/lifestyle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    border-radius: 10px;
+    margin: 50px 0 20px 0;
+}
+.ul-style{
+    list-style-type: none;
+    text-align: right;
+    font-size: 30px;
+    color: gray;
+    display: flex;
+    gap: 350px;
+}
+/*-------------------------footer--------------------------*/
+.footer-bg{
+    background-color: rgb(19, 17, 17);
+    color: white;
+    display: flex;
+}
+.footer-left{
+    padding: 150px 250px 150px 350px;
+}
+.footer-right{
+    padding: 150px 350px 150px 0;
+}
+.email-style{
+    padding: 20px 100px 20px 20px;
+    color: white;
+    background-color: rgb(19, 17, 17);
+    border-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+}
